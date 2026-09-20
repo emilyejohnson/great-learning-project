@@ -14,6 +14,9 @@ from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, SystemMessage, AIMessage, ToolMessage
 from langchain_core.tools import tool
 
+from dotenv import load_dotenv
+load_dotenv()
+
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="Kartify Support",
